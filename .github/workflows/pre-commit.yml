@@ -3,7 +3,7 @@ name: pre-commit
 on:
   pull_request:
   push:
-    branches: [test-sast]
+    branches: main
 
 jobs:
   pre-commit:
